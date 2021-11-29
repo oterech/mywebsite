@@ -1,3 +1,12 @@
+* {
+  background-color: ;
+}
+
+a {
+  text-decoration: none;
+  align-self: center;
+}
+
 .App {
   text-align: center;
 }
@@ -13,26 +22,102 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .menuLinks {
+    color: rgb(240, 240, 240);
+    background-color: #ca6e5e;
+    margin-left: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .menuLinks:hover {
+    color: #fecd6c
   }
-}
+
+  #name {
+    letter-spacing: 10px;
+    font-family: 'Poiret One', cursive;
+    color: whitesmoke;
+    background-color: #ca6e5e;
+  }
+  
+  nav {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    text-decoration: none;
+    font-size: 10px;
+    background-color: #ca6e5e
+  }
+
+  .flip-card {
+
+    width: 310px;
+    height: 210px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+  }
+  
+  
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front {
+    color: black;
+    height: 100%;
+    border: solid 4px #ca6e5e;
+    width: 100%;
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    border: solid 4px #ca6e5e;
+    background-color: white;
+    transform: rotateY(180deg);
+    height: 100%;
+    width: 100%;
+    font-size:small;
+    color: #fecd6c
+  }
+
+  .dates {
+    color: #ca6e5e
+  }
+
+  .name {
+    font-weight: bolder
+  }
+
+  .title {
+    letter-spacing: .4rem;
+    color: #543552;
+    font-weight: bolder;
+  }
+
+  .title:hover {
+    color:#fecd6c
+  }
+
+  .projects {
+    color: #ca6e5e;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 2rem;
+  }
+
+  #myname {
+    font-family: 'Poiret One', cursive;
+    color: #ca6e5e;
+    font-weight: bolder;
+  }
