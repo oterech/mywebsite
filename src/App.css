@@ -121,3 +121,7 @@ a {
     color: #ca6e5e;
     font-weight: bolder;
   }
+
+  #a {
+    opacity: .5;
+  }

@@ -3,10 +3,10 @@ import React from "react";
 const About = () => (
   <div className="pt-1 mx-5">
     <div className="fs-5 mt-5 text-start mx-5">
-<p className="fs-5">hey there! i'm</p><p id="myname" className="fs-1 mx-5 text-start"> phoebe:</p>
-      <p><b>a</b> Full Stack Web + Mobile Engineer.</p>
-      <p><b>who</b> recently finished a full time immersive Software Development Bootcamp: Grace Hopper @ Fullstack Academy, in July 2021.</p>
-      <p><b>now</b> I'm currently based in Philly, but I love to travel, and I'm open to remote & freelance work.</p>
+<p className="fs-5">hey there! i'm</p><p id="myname" className="display-2 mx-5 text-start"> phoebe:</p>
+      <p><b id="a">a</b> Full Stack <b>Web</b> + <b>Mobile</b> Engineer.</p>
+      <p><b id="a">who recently finished a full time immersive Software Development Bootcamp:</b> <b>Grace Hopper @ Fullstack Academy</b>, in July 2021.</p>
+      <p><b id="a">now</b> I'm currently based in Philly, but I love to travel, and I'm open to remote & freelance work.</p>
       <p>Contact me, let's <b>connect</b>!</p>
     </div>
   </div>
