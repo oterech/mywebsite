@@ -8,7 +8,7 @@ import stack from "../assets/stack.png"
 export default function Projects() {
   return (
     <div>
-    <h1 className="mt-5 pt-5 display-1 projects">Projects</h1>
+    <h1 className="mt-5 pt-5 display-1 text-center projects">Projects</h1>
     <div className="p-5 d-flex mx-auto justify-content-center flex-wrap">
       {images.map(({ id, src, title, description }) => {
         const cardInfo = (descriptions.filter(item => {

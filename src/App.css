@@ -1,6 +1,3 @@
-* {
-  background-color: ;
-}
 
 a {
   text-decoration: none;
@@ -25,7 +22,7 @@ a {
   .menuLinks {
     color: rgb(240, 240, 240);
     background-color: #ca6e5e;
-    margin-left: 20px;
+    margin-right: .5em;
   }
   
   .menuLinks:hover {
@@ -232,3 +229,8 @@ a {
     }
   }
   
+  #me {
+    position:  absolute;
+    right: -25px;
+  
+  }
