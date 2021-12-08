@@ -76,21 +76,22 @@ a {
     position: absolute;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    color: #ca6e5e;
   }
   
   /* Style the back side */
   .flip-card-back {
-    border: solid 4px #ca6e5e;
-    background-color: white;
+    border: solid 4px rgb(240, 240, 240);
+    background-color: #ca6e5e;
     transform: rotateY(180deg);
     height: 100%;
     width: 100%;
     font-size:small;
-    color: #fecd6c
+    color: white;
   }
 
   .dates {
-    color: #ca6e5e
+    color: white;
   }
 
   .name {
@@ -99,7 +100,8 @@ a {
 
   .title {
     letter-spacing: .4rem;
-    color: #543552;
+    color: #720980dc;
+    text-decoration: underline #fecd6c;
     font-weight: bolder;
   }
 
